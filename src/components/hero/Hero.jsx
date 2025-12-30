@@ -42,7 +42,7 @@ const Hero = () => {
             </h2>
 
             <p className="text-gray-400 max-w-2xl mx-auto text-lg md:text-xl mb-10 font-manrope leading-relaxed">
-              Fullstack Developer x Machine Learning Engineer.
+              Frontend Developer x Machine Learning Engineer.
               <br />
               Crafting immersive digital experiences with precision and depth.
             </p>

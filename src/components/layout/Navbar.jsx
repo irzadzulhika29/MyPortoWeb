@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import Button from "../ui/Button";
+import Logo from "../../../public/logo.svg"
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -86,9 +87,7 @@ const Navbar = () => {
                 href="#"
                 className="group flex items-center justify-center w-10 h-10 rounded-lg bg-gradient-to-br from-cyan/20 to-neon-purple/20 border border-white/20 hover:border-cyan/50 transition-all duration-300 hover:shadow-lg hover:shadow-cyan/20"
               >
-                <span className="text-xs font-bold font-mono text-gradient tracking-tighter">
-                  MID
-                </span>
+                <img src={Logo} alt="" />
               </a>
 
               {/* Separator */}

@@ -64,7 +64,7 @@ const DraggableNameTag = ({ children, imageSrc }) => {
             {children}
             <div className="mt-2 flex justify-center gap-2">
               <span className="px-2 py-1 bg-cyan/10 text-cyan text-xs font-mono rounded">
-                FULLSTACK
+                FRONT END
               </span>
               <span className="px-2 py-1 bg-neon-purple/10 text-neon-purple text-xs font-mono rounded">
                 ML/AI

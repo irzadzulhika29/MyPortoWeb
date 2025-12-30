@@ -7,6 +7,7 @@ import About from "./components/about/About";
 import TechStack from "./components/tech/TechStack";
 import Projects from "./components/projects/Projects";
 import Experience from "./components/experience/Experience";
+import SocialProof from "./components/socialproof/SocialProof";
 import Contact from "./components/contact/Contact";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <TechStack />
         <Projects />
         <Experience />
+        <SocialProof />
         <Contact />
       </main>
     </div>
